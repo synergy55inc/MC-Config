@@ -1,0 +1,8 @@
+
+c_serial_plugin=function()
+{this.id=null;this.name=null;this.version=null;this.plugdom=null;this.m_xmldom=null;this.m_cfgdom=null;this.m_dfndom=null;this.m_xpathStack=new c_stack_obj();this.changed=0;};c_serial_plugin.prototype=new c_base_plugin();c_serial_plugin.prototype.constructor=c_serial_plugin;c_serial_plugin.prototype.parent=c_base_plugin.prototype;c_serial_plugin.prototype.handleUnknownNodeName=function(node,idx)
+{var nname=node.nodeName;var nid=node.getAttribute("id");var name=node.getAttribute("name");switch(nname)
+{case"Device":device=null;device=new c_serial_device();var cfgNode=selectNodes(this.m_cfgdom,"//PlugIn[@id='"+this.id+"']/Device[@id='"+nid+"']");device.setCfgBase(cfgNode[0]);var dfnNode=selectNodes(this.m_dfndom,"//PlugIn[@id='"+this.id+"']/Device[@id='"+nid+"']");device.setDfnBase(dfnNode[0]);var xmlNode=selectNodes(this.m_xmldom,"//Device");device.setXmlBase(xmlNode[0]);device.setGuvnor(this);device.id=nid;device.name=name;classStack.push("device");displayMessage("Loading device, please wait...");setTimeout("device.load();",10);return true;break;}
+return false;};c_serial_device=function()
+{this.m_xmldom=null;this.m_cfgdom=null;this.m_dfndom=null;this.m_xpathStack=new c_stack_obj();this.changed=0;};c_serial_device.prototype=new c_base_obj();c_serial_device.prototype.constructor=c_serial_device;c_serial_device.prototype.parent=c_base_obj.prototype;c_serial_device.prototype.load=function()
+{this.show();};

@@ -1,0 +1,10 @@
+[HKEY_CURRENT_USER\ControlPanel\Devices\IST1:]
+"TimeoutWakeupFlag" = dword:00000000 
+"APIWakeupFlag" = dword:00000000 
+[HKEY_LOCAL_MACHINE\Services\IST\SETTINGS\POWER]
+"KeepAliveSensitivity" = dword:00000002 
+"KeepAlive" = hex:\
+      01,00,00,00
+[HKEY_LOCAL_MACHINE\Services\IST\SETTINGS\GUI]
+"ShowTBIcon" = hex:\
+      00,00,00,00

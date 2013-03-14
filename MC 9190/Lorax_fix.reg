@@ -1,0 +1,10 @@
+;----------  SE1524  ----------
+;----- FIX for LORAX ----------
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\BarCodeReader\Configurations\SE1524_Lorax_ER\Settings]
+	"WaitForWriteToComplete"=dword:00000001
+	"ReinitSerialPortOnResume"=dword:00000001
+	"NakNumber"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Serial7]
+"TxTrigger"=dword:00000001

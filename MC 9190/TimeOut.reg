@@ -1,0 +1,22 @@
+[HKEY_CURRENT_USER\ControlPanel\backlight]
+"Persist" = dword:00000000 
+"BatteryTimeout" = dword:0000012c 
+[HKEY_CURRENT_USER\ControlPanel\KeyLight]
+"BatteryTimeout" = dword:0000012c 
+[HKEY_CURRENT_USER\ControlPanel\LastWakeup]
+"DeviceName" = "rcm1:"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows CE Services]
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Power\Timeouts]
+"BattSuspendTimeout" = dword:0000012c 
+[HKEY_LOCAL_MACHINE\Comm\ppp\Parms]
+"IPV6RandomIFID" = hex:\
+      c9,e1,70,98,f8,1b,54,dc
+[HKEY_LOCAL_MACHINE\Comm\NPME\JEDI10_1\Parms\TcpIp]
+"LeaseObtainedHigh" = dword:01c96bd1 
+"LeaseObtainedLow" = dword:7ad6bc80 
+[HKEY_LOCAL_MACHINE\ControlPanel]
+"PanelState" = dword:00060100 
+[HKEY_LOCAL_MACHINE\Hardware\DEVICEMAP\BACKLIGHT]
+"BattBacklightIntensity" = dword:0000002f 
+"ACBacklightIntensity" = dword:0000002f 
+"BacklightIntensity" = dword:0000002f 

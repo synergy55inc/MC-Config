@@ -1,0 +1,8 @@
+[HKEY_CURRENT_USER\Software\Symbol\DataWedge\Barcode]
+"AutoTab" = dword:00000000 
+"AutoEnter" = dword:00000001 
+"Suffix" = "[bc]"
+[HKEY_LOCAL_MACHINE\Comm\SecurityProviders\SCHANNEL]
+"RNG" = hex:\
+      af,84,ee,04,f6,c4,e3,e3,9c,d0,8e,dd,58,14,c3,8e,5b,e8,a2,e1,94,28,e2,06,ba,\
+      1e,7e,b2,73,9e,91,99

@@ -1,0 +1,101 @@
+
+body
+{background-color:white;color:black;font-family:tahoma;font-size:10pt;padding:1px 1px 1px 1px;margin:1px 1px 1px 1px;width:99%;}
+p
+{font-family:tahoma;font-size:10pt;}
+hr
+{padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;width:98%;}
+div
+{}
+div.eg
+{font-size:8pt;color:gray;}
+div.oldtitleold
+{background-color:#7FFF00;font-size:12px;margin:0;word-wrap:break-word;}
+div.title
+{background-color:white;font-family:tahoma;font-size:8pt;font-weight:bold;margin:0;padding:2px;word-wrap:break-word;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#666666;}
+div.status
+{font-family:tahoma;font-size:8pt;margin:0;}
+div.heading
+{background-color:black;color:white;width:100%;font-size:10pt;}
+div.item
+{top:0px;height:15px;padding-left:0px;width:100%;}
+span.wide
+{width:100%;}
+div.r0
+{font-size:12pt;padding:0px 4px 0px 4px;margin:0px 0px 0px 0px;cursor:pointer;border-top-width:1px;border-top-style:solid;border-top-color:#DCDCDC;}
+div.r1
+{font-size:12pt;padding:0px 4px 0px 4px;margin:0px 0px 0px 0px;cursor:pointer;border-top-width:1px;border-top-style:solid;border-top-color:#DCDCDC;}
+div.es
+{background-color:white;font-size:10pt;padding:4px 2px 3px 2px;margin:0px 0px 0px 0px;cursor:pointer;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#666666;clear:both;}
+div#value
+{font-size:8pt;color:#808080;cursor:pointer;}
+div.c1
+{float:left;width:10%;background-color:inherit;}
+div.c2
+{float:left;width:10%;background-color:inherit;}
+div.c3
+{float:left;width:70%;background-color:inherit;}
+div.c4
+{float:right;width:10%;text-align:right;background-color:inherit;}
+a.item
+{display:block;}
+a.title
+{font-family:tahoma;font-size:8pt;}
+a:link
+{text-decoration:none;color:black;}
+a:visited
+{text-decoration:none;color:black;}
+a:active
+{text-decoration:none;color:black;}
+a:hover
+{text-decoration:none;color:Red;}
+textarea.txt
+{width:100%;padding:2px 4px 2px 4px;font-family:tahoma;font-size:11pt;overflow:scroll;}
+input.txt
+{width:100%;padding:2px 4px 2px 4px;font-family:tahoma;font-size:11pt;}
+input.btn
+{font-size:12pt;font-weight:bold;padding:2px 8px 2px 8px;}
+form
+{width:100%;padding-left:4px;padding-top:12px;padding-bottom:0px;margin:0px 0px 0px 0px;}
+ul.r0
+{margin-left:0px;padding-left:0px;background-color:White;display:block;}
+ul.r1
+{margin-left:0px;padding-left:0px;background-color:#F0E68C;display:block;}
+ul.navbar
+{display:block;list-style-type:none;width:100%;margin-left:0px;padding-left:0px;background-color:black;color:white;font-weight:normal;}
+ul.navbar li
+{display:inline;text-align:center;font-size:10pt;}
+li.c1
+{margin-left:0px;padding-left:0px;float:left;width:7%;background-color:inherit;}
+li.c1t
+{margin-left:0px;padding-left:0px;float:left;width:7%;background-color:inherit;}
+li.c2
+{float:left;width:7%;background-color:inherit;}
+li.c3
+{float:left;width:60%;background-color:inherit;}
+li.c4
+{float:left;width:25%;text-align:right;background-color:inherit;}
+span.c1
+{font-family:monospace;font-size:10pt;}
+span.c2
+{}
+span.c3
+{}
+span.c4
+{}#navbar
+{height:30pt;padding:0;margin:0;}#navbar ul
+{padding:0;margin:0;list-style:none;}#navbar ul li
+{display:block;float:left;position:relative;text-align:center;font-family:sans-serif;font-size:10pt;font-weight:normal;height:30pt;line-height:30pt;background-color:black;color:white;cursor:pointer;}#navbar ul li.left
+{width:20%;font-size:9pt;color:Silver;}#navbar ul li.center
+{width:49%;}#navbar ul li.right
+{width:20%;font-size:9pt;color:Silver;}#navbar ul li.sep
+{width:5%;color:Silver;}#navbar a:link
+{text-decoration:none;color:Silver;}#navbar a:visited
+{text-decoration:none;color:Silver;}#navbar a:active
+{text-decoration:none;color:Silver;}#navbar a:hover
+{text-decoration:none;color:White;}#chkfit
+{position:absolute;visibility:hidden;padding:0px;height:auto;width:auto;}#navdiv{height:27pt;background-color:black;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#666666;}#navdiv a:link
+{text-decoration:none;color:Silver;cursor:pointer;}#navdiv a:visited
+{text-decoration:none;color:Silver;}#navdiv a:active
+{text-decoration:none;color:Silver;}#navdiv a:hover
+{text-decoration:none;color:White;}.itm{text-align:center;float:left;font-family:sans-serif;background-color:black;color:white;}#itm2{width:49%;font-size:10pt;}#itm1,#itm3{width:20%;font-size:9pt;color:silver;}#sep{width:5%;font-size:10pt;}#sep_spacer{font-size:6pt;}#line1_spacer{font-size:7pt;}#line2_spacer{font-size:2pt;}#offsettop{margin-top:30pt;position:absolute;}

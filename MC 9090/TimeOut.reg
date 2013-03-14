@@ -1,0 +1,6 @@
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Power\Timeouts]
+"BattSuspendTimeout" = dword:00000168 
+[HKEY_LOCAL_MACHINE\Comm\SecurityProviders\SCHANNEL]
+"RNG" = hex:\
+      17,84,6e,d8,97,66,05,4d,1e,5d,21,52,8c,7e,4f,57,70,8b,3f,b3,b3,e0,ef,cc,41,\
+      85,58,52,88,8c,51,a8

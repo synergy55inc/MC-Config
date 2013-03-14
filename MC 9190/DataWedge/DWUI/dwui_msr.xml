@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PlugIn id="MSR" name="MagStripe Reader" version=" 1.00">
+  <Device id="1" name="MSRDLL">
+    <Enabled type="bool">0</Enabled>
+    <AllowNullCards name="Allow null cards" type="bool">0</AllowNullCards>
+    <SuspendResume name="Suspend/Resume Timeout" type="integer" max="5000" min="0">0</SuspendResume>
+    <Feedback>
+      <GoodDecode name="Good Decode" type="feedback" />
+      <BadDecode name="Bad Decode" type="feedback" />
+    </Feedback>
+  </Device>
+</PlugIn>
